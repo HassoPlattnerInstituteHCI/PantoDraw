@@ -1,0 +1,4 @@
+[submodule "Assets/unity-dualpanto-toolkit"]
+	path = Assets/unity-dualpanto-toolkit
+	url = https://github.com/HassoPlattnerInstituteHCI/unity-dualpanto-toolkit.git
+	branch = feature/unity6
