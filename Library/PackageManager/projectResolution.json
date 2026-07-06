@@ -1,12 +1,12 @@
 {
   "context": {
     "projectPath": "/Users/robert/Documents/Privat/Studium/HPI/HPI-Projekte/HCI/DPDraw/PantoDraw/Packages",
-    "unityVersion": "6000.4.6f1"
+    "unityVersion": "6000.3.17f1"
   },
   "inputs": [
     "/Users/robert/Documents/Privat/Studium/HPI/HPI-Projekte/HCI/DPDraw/PantoDraw/Packages/manifest.json",
     "/Users/robert/Documents/Privat/Studium/HPI/HPI-Projekte/HCI/DPDraw/PantoDraw/Packages/packages-lock.json",
-    "/Applications/Unity/Hub/Editor/6000.4.6f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/BuiltInPackagesCombined.sha1"
+    "/Applications/Unity/Hub/Editor/6000.3.17f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/BuiltInPackagesCombined.sha1"
   ],
   "outputs": {
     "com.unity.ai.navigation@2.0.12": {
@@ -36,16 +36,6 @@
       "fingerprint": "767aadbc6eb72681a4ca807c8fa248e0230a0cef",
       "version": "1.0.2",
       "source": "builtin",
-      "testable": false
-    },
-    "com.unity.ide.rider@3.0.39": {
-      "name": "com.unity.ide.rider",
-      "displayName": "JetBrains Rider Editor",
-      "resolvedPath": "/Users/robert/Documents/Privat/Studium/HPI/HPI-Projekte/HCI/DPDraw/PantoDraw/Library/PackageCache/com.unity.ide.rider@4504839d03f7",
-      "fingerprint": "4504839d03f7a5a4495357084a0ffd6e439892cf",
-      "editorCompatibility": "2021.3.0a1",
-      "version": "3.0.39",
-      "source": "registry",
       "testable": false
     },
     "com.unity.ide.visualstudio@2.0.27": {
@@ -81,8 +71,8 @@
     "com.unity.test-framework@1.6.0": {
       "name": "com.unity.test-framework",
       "displayName": "Test Framework",
-      "resolvedPath": "/Users/robert/Documents/Privat/Studium/HPI/HPI-Projekte/HCI/DPDraw/PantoDraw/Library/PackageCache/com.unity.test-framework@76560ee600cb",
-      "fingerprint": "76560ee600cb07c29e08760be4a5c75da65a9d9e",
+      "resolvedPath": "/Users/robert/Documents/Privat/Studium/HPI/HPI-Projekte/HCI/DPDraw/PantoDraw/Library/PackageCache/com.unity.test-framework@ecf40a72f8c1",
+      "fingerprint": "ecf40a72f8c1c547313b13904fdcb64f1c114e00",
       "editorCompatibility": "6000.0.44f1",
       "version": "1.6.0",
       "source": "builtin",
@@ -101,8 +91,8 @@
     "com.unity.ugui@2.0.0": {
       "name": "com.unity.ugui",
       "displayName": "uGUI",
-      "resolvedPath": "/Users/robert/Documents/Privat/Studium/HPI/HPI-Projekte/HCI/DPDraw/PantoDraw/Library/PackageCache/com.unity.ugui@473409526770",
-      "fingerprint": "4734095267703adfe702ca5b6f09e53e9fbb6c83",
+      "resolvedPath": "/Users/robert/Documents/Privat/Studium/HPI/HPI-Projekte/HCI/DPDraw/PantoDraw/Library/PackageCache/com.unity.ugui@05e8dec4ac02",
+      "fingerprint": "05e8dec4ac02bfad5f92b1877d7685e930bad8b6",
       "editorCompatibility": "2019.2.0a1",
       "version": "2.0.0",
       "source": "builtin",
@@ -116,6 +106,16 @@
       "editorCompatibility": "2021.3.0a1",
       "version": "1.9.11",
       "source": "registry",
+      "testable": false
+    },
+    "com.whisper.unity@https://github.com/Macoron/whisper.unity.git?path=/Packages/com.whisper.unity": {
+      "name": "com.whisper.unity",
+      "displayName": "Whisper",
+      "resolvedPath": "/Users/robert/Documents/Privat/Studium/HPI/HPI-Projekte/HCI/DPDraw/PantoDraw/Library/PackageCache/com.whisper.unity@de9ce92ad4c5",
+      "fingerprint": "de9ce92ad4c53a625ff8d8a79d32440828d3c0e4",
+      "editorCompatibility": "2020.1.0a1",
+      "version": "1.4.0",
+      "source": "git",
       "testable": false
     },
     "com.unity.modules.accessibility@1.0.0": {
@@ -414,6 +414,16 @@
       "editorCompatibility": "2019.4.0a1",
       "version": "2.0.5",
       "source": "builtin",
+      "testable": false
+    },
+    "com.unity.ide.rider@3.0.40": {
+      "name": "com.unity.ide.rider",
+      "displayName": "JetBrains Rider Editor",
+      "resolvedPath": "/Users/robert/Documents/Privat/Studium/HPI/HPI-Projekte/HCI/DPDraw/PantoDraw/Library/PackageCache/com.unity.ide.rider@e4950c6d131b",
+      "fingerprint": "e4950c6d131b925f19dd0b34bdf800110120f8de",
+      "editorCompatibility": "2021.3.0a1",
+      "version": "3.0.40",
+      "source": "registry",
       "testable": false
     },
     "com.unity.editorcoroutines@1.1.0": {

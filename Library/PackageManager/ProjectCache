@@ -5,22 +5,22 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 639159009080000000
-    m_Hash: 719476296
+      ticks: 639179041390000000
+    m_Hash: 1988383103
   m_LockFileStatus:
     m_FilePath: /Users/robert/Documents/Privat/Studium/HPI/HPI-Projekte/HCI/DPDraw/PantoDraw/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 639159009120000000
-    m_Hash: 3245678641
+      ticks: 639185174270000000
+    m_Hash: 2007575652
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
   m_LocalFileStatus: []
 m_ProjectPath: /Users/robert/Documents/Privat/Studium/HPI/HPI-Projekte/HCI/DPDraw/PantoDraw/Packages
-m_EditorVersion: 6000.4.6f1 (0b051c2e5d54)
+m_EditorVersion: 6000.3.17f1 (cf0352b38e81)
 m_ResolvedPackages:
 - packageId: com.unity.ai.navigation@2.0.12
   testable: 0
@@ -69,9 +69,11 @@ m_ResolvedPackages:
     - 2.0.10
     - 2.0.11
     - 2.0.12
+    - 2.0.13
     compatible:
     - 2.0.12
-    recommended: 2.0.12
+    - 2.0.13
+    recommended: 2.0.13
     deprecated: []
   dependencies:
   - name: com.unity.modules.ai
@@ -427,7 +429,7 @@ m_ResolvedPackages:
   - name: com.unity.modules.jsonserialize
     version: 1.0.0
   - name: com.unity.ide.rider
-    version: 3.0.39
+    version: 3.0.40
   - name: com.unity.editorcoroutines
     version: 1.1.0
   - name: com.unity.performance.profile-analyzer
@@ -497,151 +499,6 @@ m_ResolvedPackages:
       scopePatternExpression: 
       message: 
       readMoreLink: 
-- packageId: com.unity.ide.rider@3.0.39
-  testable: 0
-  isDirectDependency: 1
-  version: 3.0.39
-  source: 1
-  resolvedPath: /Users/robert/Documents/Privat/Studium/HPI/HPI-Projekte/HCI/DPDraw/PantoDraw/Library/PackageCache/com.unity.ide.rider@4504839d03f7
-  assetPath: Packages/com.unity.ide.rider
-  name: com.unity.ide.rider
-  displayName: JetBrains Rider Editor
-  author:
-    name: 
-    email: 
-    url: 
-  category: 
-  type: 
-  description: The JetBrains Rider Editor package provides an integration for using
-    the JetBrains Rider IDE as a code editor for Unity. It adds support for generating
-    .csproj files for code completion and auto-discovery of installations.
-  errors: []
-  versions:
-    all:
-    - 1.0.2
-    - 1.0.6
-    - 1.0.8
-    - 1.1.0
-    - 1.1.1
-    - 1.1.2-preview
-    - 1.1.2-preview.2
-    - 1.1.3-preview.1
-    - 1.1.4-preview
-    - 1.1.4
-    - 1.2.0-preview
-    - 1.2.1
-    - 2.0.0-preview
-    - 2.0.1
-    - 2.0.2
-    - 2.0.3
-    - 2.0.5
-    - 2.0.7
-    - 3.0.1
-    - 3.0.2
-    - 3.0.3
-    - 3.0.4
-    - 3.0.5
-    - 3.0.6
-    - 3.0.7
-    - 3.0.9
-    - 3.0.10
-    - 3.0.12
-    - 3.0.13
-    - 3.0.14
-    - 3.0.15
-    - 3.0.16
-    - 3.0.17
-    - 3.0.18
-    - 3.0.20
-    - 3.0.21
-    - 3.0.22
-    - 3.0.24
-    - 3.0.25
-    - 3.0.26
-    - 3.0.27
-    - 3.0.28
-    - 3.0.31
-    - 3.0.34
-    - 3.0.35
-    - 3.0.36
-    - 3.0.37
-    - 3.0.38
-    - 3.0.39
-    - 3.0.40
-    compatible:
-    - 3.0.39
-    - 3.0.40
-    recommended: 3.0.40
-    deprecated:
-    - 3.0.37
-  dependencies:
-  - name: com.unity.ext.nunit
-    version: 1.0.6
-  resolvedDependencies:
-  - name: com.unity.ext.nunit
-    version: 2.0.5
-  keywords: []
-  registry:
-    id: main
-    name: 
-    url: https://packages.unity.com
-    scopes: []
-    isDefault: 1
-    capabilities: 7
-    configSource: 0
-    compliance:
-      status: 0
-      violations: []
-  hideInEditor: 1
-  entitlements:
-    licensingModel: 1
-  isAssetStorePackage: 0
-  datePublishedTicks: 639045875071620000
-  documentationUrl: https://docs.unity3d.com/Packages/com.unity.ide.rider@3.0/manual/index.html
-  hasRepository: 1
-  repository:
-    type: git
-    url: https://github.cds.internal.unity3d.com/unity/com.unity.ide.rider.git
-    revision: 4da98b83c4f1de974829959526a470c26a8fa9f4
-    path: 
-  unityLifecycle:
-    version: 3.0.39
-    nextVersion: 
-    recommendedVersion: 
-    isDeprecated: 0
-    deprecationMessage: 
-    isDiscoverable: 1
-  isDeprecated: 0
-  deprecationMessage: 
-  git:
-    hash: 
-    revision: 
-  upmReserved: '{"changelog":"- fix the indent of the LinkButton\n- fix project generation
-    to avoid attempts to restore NuGet packages (with some of the MSBuild versions)"}'
-  signature:
-    status: 1
-    reason: Signature is ok
-    attestation:
-      format: archive
-      publishingChannel: unity
-      entitlementKeys: []
-      ownerOrgName: 
-      ownerOrgId: 
-      publisherName: 
-    errorCode: 
-  assetStore:
-    productId: 
-  fingerprint: 4504839d03f7a5a4495357084a0ffd6e439892cf
-  editorCompatibility:
-    compatibilityLevel: 0
-    minimumPackageVersion: 3.0.39
-    minimumUnityVersion: 2021.3
-  compliance:
-    status: 0
-    violation:
-      scopePatternExpression: 
-      message: 
-      readMoreLink: 
 - packageId: com.unity.ide.visualstudio@2.0.27
   testable: 0
   isDirectDependency: 1
@@ -692,6 +549,7 @@ m_ResolvedPackages:
     - 2.0.26
     - 2.0.27
     compatible:
+    - 2.0.26
     - 2.0.27
     recommended: 2.0.27
     deprecated: []
@@ -732,7 +590,7 @@ m_ResolvedPackages:
     revision: 4b2a3082a6e79faf658e8d766c820083b736eed6
     path: 
   unityLifecycle:
-    version: 2.0.27
+    version: 2.0.26
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
@@ -764,7 +622,7 @@ m_ResolvedPackages:
   fingerprint: dc1ddd4f09b68a99b5dc00185f3b7551294e28a7
   editorCompatibility:
     compatibilityLevel: 0
-    minimumPackageVersion: 2.0.27
+    minimumPackageVersion: 2.0.26
     minimumUnityVersion: 2021.3
   compliance:
     status: 0
@@ -998,7 +856,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.6.0
   source: 2
-  resolvedPath: /Users/robert/Documents/Privat/Studium/HPI/HPI-Projekte/HCI/DPDraw/PantoDraw/Library/PackageCache/com.unity.test-framework@76560ee600cb
+  resolvedPath: /Users/robert/Documents/Privat/Studium/HPI/HPI-Projekte/HCI/DPDraw/PantoDraw/Library/PackageCache/com.unity.test-framework@ecf40a72f8c1
   assetPath: Packages/com.unity.test-framework
   name: com.unity.test-framework
   displayName: Test Framework
@@ -1083,7 +941,7 @@ m_ResolvedPackages:
     errorCode: 
   assetStore:
     productId: 
-  fingerprint: 76560ee600cb07c29e08760be4a5c75da65a9d9e
+  fingerprint: ecf40a72f8c1c547313b13904fdcb64f1c114e00
   editorCompatibility:
     compatibilityLevel: 0
     minimumPackageVersion: 1.6.0
@@ -1300,7 +1158,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 2.0.0
   source: 2
-  resolvedPath: /Users/robert/Documents/Privat/Studium/HPI/HPI-Projekte/HCI/DPDraw/PantoDraw/Library/PackageCache/com.unity.ugui@473409526770
+  resolvedPath: /Users/robert/Documents/Privat/Studium/HPI/HPI-Projekte/HCI/DPDraw/PantoDraw/Library/PackageCache/com.unity.ugui@05e8dec4ac02
   assetPath: Packages/com.unity.ugui
   name: com.unity.ugui
   displayName: uGUI
@@ -1391,7 +1249,7 @@ m_ResolvedPackages:
     errorCode: 
   assetStore:
     productId: 
-  fingerprint: 4734095267703adfe702ca5b6f09e53e9fbb6c83
+  fingerprint: 05e8dec4ac02bfad5f92b1877d7685e930bad8b6
   editorCompatibility:
     compatibilityLevel: 0
     minimumPackageVersion: 2.0.0
@@ -1536,6 +1394,95 @@ m_ResolvedPackages:
     compatibilityLevel: 0
     minimumPackageVersion: 1.9.11
     minimumUnityVersion: 2021.3
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
+- packageId: com.whisper.unity@https://github.com/Macoron/whisper.unity.git?path=/Packages/com.whisper.unity
+  testable: 0
+  isDirectDependency: 1
+  version: 1.4.0
+  source: 5
+  resolvedPath: /Users/robert/Documents/Privat/Studium/HPI/HPI-Projekte/HCI/DPDraw/PantoDraw/Library/PackageCache/com.whisper.unity@de9ce92ad4c5
+  assetPath: Packages/com.whisper.unity
+  name: com.whisper.unity
+  displayName: Whisper
+  author:
+    name: Macoron
+    email: 
+    url: https://github.com/Macoron
+  category: 
+  type: 
+  description: 'Whisper is high-performance automatic speech recognition (ASR) model,
+    developed by OpenAI.
+
+
+    This is Unity bindings of whisper.cpp infrence implementation.'
+  errors: []
+  versions:
+    all: []
+    compatible: []
+    recommended: 
+    deprecated: []
+  dependencies: []
+  resolvedDependencies: []
+  keywords: []
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+    compliance:
+      status: 0
+      violations: []
+  hideInEditor: 1
+  entitlements:
+    licensingModel: 0
+  isAssetStorePackage: 0
+  datePublishedTicks: 0
+  documentationUrl: https://github.com/Macoron/whisper.unity/blob/master/README.md
+  hasRepository: 0
+  repository:
+    type: 
+    url: 
+    revision: 
+    path: 
+  unityLifecycle:
+    version: 
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+    isDiscoverable: 0
+  isDeprecated: 0
+  deprecationMessage: 
+  git:
+    hash: 529a628a915a97799e89e061af9cb7c71407124d
+    revision: HEAD
+  upmReserved: 
+  signature:
+    status: 0
+    reason: 
+    attestation:
+      format: 
+      publishingChannel: 
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+    errorCode: 
+  assetStore:
+    productId: 
+  fingerprint: de9ce92ad4c53a625ff8d8a79d32440828d3c0e4
+  editorCompatibility:
+    compatibilityLevel: 0
+    minimumPackageVersion: 
+    minimumUnityVersion: 2020.1
   compliance:
     status: 0
     violation:
@@ -4974,6 +4921,150 @@ m_ResolvedPackages:
       scopePatternExpression: 
       message: 
       readMoreLink: 
+- packageId: com.unity.ide.rider@3.0.40
+  testable: 0
+  isDirectDependency: 1
+  version: 3.0.40
+  source: 1
+  resolvedPath: /Users/robert/Documents/Privat/Studium/HPI/HPI-Projekte/HCI/DPDraw/PantoDraw/Library/PackageCache/com.unity.ide.rider@e4950c6d131b
+  assetPath: Packages/com.unity.ide.rider
+  name: com.unity.ide.rider
+  displayName: JetBrains Rider Editor
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: 
+  description: The JetBrains Rider Editor package provides an integration for using
+    the JetBrains Rider IDE as a code editor for Unity. It adds support for generating
+    .csproj files for code completion and auto-discovery of installations.
+  errors: []
+  versions:
+    all:
+    - 1.0.2
+    - 1.0.6
+    - 1.0.8
+    - 1.1.0
+    - 1.1.1
+    - 1.1.2-preview
+    - 1.1.2-preview.2
+    - 1.1.3-preview.1
+    - 1.1.4-preview
+    - 1.1.4
+    - 1.2.0-preview
+    - 1.2.1
+    - 2.0.0-preview
+    - 2.0.1
+    - 2.0.2
+    - 2.0.3
+    - 2.0.5
+    - 2.0.7
+    - 3.0.1
+    - 3.0.2
+    - 3.0.3
+    - 3.0.4
+    - 3.0.5
+    - 3.0.6
+    - 3.0.7
+    - 3.0.9
+    - 3.0.10
+    - 3.0.12
+    - 3.0.13
+    - 3.0.14
+    - 3.0.15
+    - 3.0.16
+    - 3.0.17
+    - 3.0.18
+    - 3.0.20
+    - 3.0.21
+    - 3.0.22
+    - 3.0.24
+    - 3.0.25
+    - 3.0.26
+    - 3.0.27
+    - 3.0.28
+    - 3.0.31
+    - 3.0.34
+    - 3.0.35
+    - 3.0.36
+    - 3.0.37
+    - 3.0.38
+    - 3.0.39
+    - 3.0.40
+    compatible:
+    - 3.0.40
+    recommended: 3.0.40
+    deprecated:
+    - 3.0.37
+  dependencies:
+  - name: com.unity.ext.nunit
+    version: 1.0.6
+  resolvedDependencies:
+  - name: com.unity.ext.nunit
+    version: 2.0.5
+  keywords: []
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+    compliance:
+      status: 0
+      violations: []
+  hideInEditor: 1
+  entitlements:
+    licensingModel: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 639117612635980000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.ide.rider@3.0/manual/index.html
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.cds.internal.unity3d.com/unity/com.unity.ide.rider.git
+    revision: ac65c165e102e0e3a75f1448b8578d29ba0eaf58
+    path: 
+  unityLifecycle:
+    version: 3.0.40
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+    isDiscoverable: 1
+  isDeprecated: 0
+  deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: '{"changelog":"- Normalise paths for additional files for roslyn,
+    fixes RIDER-136169 Roslyn process gets stuck"}'
+  signature:
+    status: 1
+    reason: Signature is ok
+    attestation:
+      format: archive
+      publishingChannel: unity
+      entitlementKeys: []
+      ownerOrgName: 
+      ownerOrgId: 
+      publisherName: 
+    errorCode: 
+  assetStore:
+    productId: 
+  fingerprint: e4950c6d131b925f19dd0b34bdf800110120f8de
+  editorCompatibility:
+    compatibilityLevel: 0
+    minimumPackageVersion: 3.0.40
+    minimumUnityVersion: 2021.3
+  compliance:
+    status: 0
+    violation:
+      scopePatternExpression: 
+      message: 
+      readMoreLink: 
 - packageId: com.unity.editorcoroutines@1.1.0
   testable: 0
   isDirectDependency: 0
@@ -5122,8 +5213,10 @@ m_ResolvedPackages:
     - 1.3.2
     - 1.3.3
     - 1.3.4
+    - 1.4.0
     compatible:
     - 1.3.4
+    - 1.4.0
     recommended: 1.3.4
     deprecated: []
   dependencies: []
@@ -5454,4 +5547,4 @@ m_ResolvedPackages:
       scopePatternExpression: 
       message: 
       readMoreLink: 
-m_BuiltInPackagesHash: 75f558946ad7a471c303ea4bc12c8f5e42fac7b2
+m_BuiltInPackagesHash: 156350f5e3b63bcc5d45ec01b9430e3351b3a4ca
